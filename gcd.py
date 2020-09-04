@@ -4,7 +4,7 @@ def GCD(A, B):
         A = GCD(B, C)
     return A
 
-A = 36
-B = 48
 
+A = int(input())
+B = int(input())
 print(GCD(A, B))
